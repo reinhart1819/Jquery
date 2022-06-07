@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.siteInit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: rgb(248, 182, 182);
+    color: black;
+}
+.siteInit h1{
+    font-weight: 300;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+main .loginCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 10rem;
+    width: 20rem;
+    padding: 1rem;
+}
+.loginCon label{
+    
+}
+input{
+    width: 15rem;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+.loginCon button{
+    padding: 0.5;
+    background-color:black;
+    border: none;
+    color: white;
+}
+
+/* this is for the reg page */
+
+.siteReg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(248, 182, 182);
+    color: black;
+}
